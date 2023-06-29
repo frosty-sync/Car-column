@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&display=swap');
+
+
+
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+*{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allcontainer{
+    background-color: aqua;
+    display: flex;
+  width: 60%;
+  height: 60%;
+  border-radius: 12px;
+  
+
+}
+.sedans{
+    padding: 2rem;
+    font-size: 15px;
+   background-color: hsl(31, 77%, 52%);
+ 
+  
+}
+.suvs{
+    padding: 2rem;
+    font-size: 15px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.luxary{
+    padding: 2rem;
+    font-size: 15px;
+    background-color: hsl(179, 100%, 13%);
+}
+.seadanheading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+.suvheading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.luxaryheading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.seadanpar{
+   color: hsla(0, 0%, 100%, 0.75);
+   
+   font-family: 'Lexend Deca', sans-serif;
+
+}
+.suvpar{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.luxarypar{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+   font-size: 15px;
+   width: 60%;
+    height: 15%;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: hsl(0, 0%, 95%);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3sec;
+    transition-delay: 0;
+    transition-timing-function: ease;
+    
+}
+.luxarydis{
+    margin-top: 5rem;
+    background-color: hsl(0, 0%, 95%);
+    outline: none;
+border: none;
+
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
+img{
+    transition-property: transform;
+    transition-duration: 0.3sec;
+    transition-delay: 0;
+    transition-timing-function: ease;
+}
+img:hover{
+    transform: translateY(-5px);
+}
